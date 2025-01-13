@@ -25,7 +25,7 @@ fun Entrenamientos(
     navController: NavHostController,
 
     // Instancia del ViewModel para manejar los datos de entrenamiento
-    viewModel: EntrenamientosViewModel = viewModel()a // Obtener el ViewModel
+    viewModel: EntrenamientosViewModel = viewModel() // Obtener el ViewModel
 ) {
 
     //Estado para mostrar u ocultar la ventana dialogo y conservarlo
@@ -60,6 +60,7 @@ fun Entrenamientos(
                 .fillMaxSize()
                 .padding(16.dp)
                 // Scroll en la pantalla
+                .padding(18.dp)
                 .verticalScroll(rememberScrollState())
         ) {
             // Barra superior con título y botón "+"
