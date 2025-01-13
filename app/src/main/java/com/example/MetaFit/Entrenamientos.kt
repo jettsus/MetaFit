@@ -60,7 +60,6 @@ fun Entrenamientos(
                 .fillMaxSize()
                 .padding(16.dp)
                 // Scroll en la pantalla
-                .padding(18.dp)
                 .verticalScroll(rememberScrollState())
         ) {
             // Barra superior con título y botón "+"
