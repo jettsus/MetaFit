@@ -25,7 +25,7 @@ fun Entrenamientos(
     navController: NavHostController,
 
     // Instancia del ViewModel para manejar los datos de entrenamiento
-    viewModel: EntrenamientosViewModel = viewModel() // Obtener el ViewModel
+    viewModel: EntrenamientosViewModel = viewModel()a // Obtener el ViewModel
 ) {
 
     //Estado para mostrar u ocultar la ventana dialogo y conservarlo
